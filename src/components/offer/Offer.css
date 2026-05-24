@@ -6,12 +6,12 @@
    font-family:'Urbanist', sans-serif;
 }
 
-.service{
-    padding:100px 120px;
+.offer-section{
+     padding:100px 120px;
     background:#ffffff;
 }
 
-.service-title{
+.offer-title{
     font-size:55px;
     font-weight:800;
     color:#111111;
@@ -19,20 +19,19 @@
 
 }
 
-.service-subtitle{
+.offer-subtitle{
     font-size:18px;
     color:#6b6b6b;
     margin-bottom:50px;
 }
 
-.service-container{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
+.offer-container{
+     display:grid;
+    grid-template-columns:repeat(3,2fr);
     gap:25px;
-
 }
 
-.service-card{
+.offer-card{
     background:#F8F8F8; padding:35px;   
      border-radius:22px;  
      transition:0.3s ease;
@@ -40,28 +39,16 @@
 
 }
 
-.service-card:hover{
+.offer-card:hover{
     transform:translateY(-10px);
     box-shadow:0 12px 30px rgba(0,0,0,0.08);
 
 }
 
-.service-icon{
+.offer-icon{
     font-size:45px;
     color:#FFD600;
     margin-bottom:20px;
 
 }
 
-.service-card h3{
-    font-size:24px;
-    font-weight:700;
-    margin-bottom:15px;
-
-}
-
-.service-card p{
-    font-size:16px;
-    line-height:1.7;
-    color:#666666;  
-}
